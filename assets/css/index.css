@@ -14,6 +14,8 @@ a{
 
 button{
     cursor: pointer;
+    border: none;
+    outline: none;
 }
 
 *{
@@ -29,7 +31,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #C9C9C9;
+    background-color: #e60000;
 }
 
 #root{
@@ -49,6 +51,45 @@ nav{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+#nav-line{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: none;
+    border: none;
+    display: none;
+}
+
+#nav-line :nth-child(1){
+    width: 50%;
+    height: 2px;
+    background-color: #09A66D;
+    margin-left: 50%;
+}
+
+#nav-line :nth-child(2){
+    width: 100%;
+    height: 2px;
+    background-color: #09A66D;
+}
+
+#nav-line :nth-child(3){
+    width: 50%;
+    height: 2px;
+    background-color: #09A66D;
+}
+
+#nav-line:hover :nth-child(1){
+    margin-left: 0;
+    width: 100%;
+}
+
+#nav-line:hover :nth-child(3){
+    width: 100%;
 }
 
 #nav-nav{
@@ -319,6 +360,11 @@ header{
     color: #555555;
     font-size: 14px;
     font-family: DMSans;
+}
+
+#arrow{
+    background: none;
+    border: none;
 }
 
 #sec1-right{

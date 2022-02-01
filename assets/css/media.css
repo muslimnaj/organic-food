@@ -1,0 +1,674 @@
+@media (max-width: 1200px){
+    #root{
+        max-width: 1200px;
+        width: 100%;
+        height:  auto;
+    }
+
+    nav{
+        padding: 0 50px;
+    }
+
+    #nav-link{
+        width: 70%;
+    }
+
+    #header-text{
+        left: 208px;
+    }
+
+    #order-now{
+        left: 512px;
+    }
+
+    #header-img2{
+        left: 70px;
+    }
+
+    #sec1{
+        width: 100%;
+        height: 1800px;
+        padding: 0 300px;
+    }
+
+    #sec1-right{
+     margin-top: 650px;
+     margin-right: 150px;
+    }
+
+    #sec2{
+        height: 1550px;
+        display: flex;
+        flex-direction: column;
+        padding: 25px 0;
+    }
+
+    #sec3{
+        display: flex;
+        justify-content: center;
+        height: auto;
+    }
+
+    #sec3-top{
+        flex-direction: column;
+        margin-top:  50px;
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+        padding:  0 300px;
+    }
+
+    #sec3-left{
+        margin-top: 70px;
+    }
+
+    #sec3-footer{
+        display: flex;
+        justify-content: center;
+        margin-top: 550px;
+        text-align: center;
+        width: 100%;
+        margin-left: 0;
+    }
+
+     #sec3-footer-left{
+        margin-right: 50px;
+    } 
+}
+
+@media (max-width: 960px){
+    #root{
+        max-width: 960px;
+        width: 100%;
+        height: auto;
+    }
+
+    nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #nav-img{
+       display: none;
+    }
+
+    #header-text{
+        left: 88px;
+    }
+
+    #order-now {
+        left: 392px;
+    }
+
+    #header-img2 > img{
+        width: 600px;
+        margin-left: -50px;
+    }
+
+    #header-right{
+       margin-right: -50px;
+    }
+
+    #sec1{
+        padding: 0;
+    }
+
+    #sec1-text{
+        width: 100%;
+        text-align: center;
+        padding: 0 100px;
+    }
+
+    #sec1-card{
+        margin-left: 230px;
+    }
+
+    #sec1-right{
+        left: 300px;
+    }
+
+      #sec3-top {
+          flex-direction: column;
+          margin-top: 50px;
+          margin-left: 0;
+          width: 100%;
+          text-align: center;
+          padding: 0 160px;
+      }
+
+      #sec3-footer{
+          padding: 0 50px;
+      }
+
+      #sec3-footer-text :nth-child(2){
+          font-size: 50px;
+      }
+}
+
+
+@media (max-width: 720px){
+    #root{
+        max-width: 720px;
+        width: 100%;
+        height: auto;
+    }
+
+    #nav-link > a{
+      padding:  0 7px;
+    }
+
+    #nav-right :nth-child(1){
+       margin-right: 15px;
+    }
+
+    #nav-right :nth-child(2) {
+        margin-right: 25px;
+    }
+
+    header{
+        height: 900px;
+    }
+
+    #header-text{
+        left: 0;
+        top: 30px;
+        width: 100%;
+        text-align: center;
+        height: auto;
+    }
+
+    #organic{
+     font-size: 50px;
+    }
+
+    #lorem{
+        margin-top: 100px;
+    }
+
+    #order-now{
+        margin-top: 20px;
+        left: 280px;
+    }
+
+    #header-img2{
+        display: none;
+    }
+
+    #header-right{
+        left: 235px;
+        margin-top: 50px;
+    }
+
+    #sec1-card{
+        margin-top: 100px;
+        margin-left: 120px;
+    }
+
+    #sec1-right{
+        margin: 700px 0 0 -180px;
+    }
+
+    #sec2{
+        display: flex;
+        justify-content: center;
+    }
+
+    #sec2-img1{
+        margin-left: -5px;
+    }
+
+    #sec2-right-footer{
+        flex-direction: column;
+    }
+
+    #sec2-img2{
+        margin-top: 20px;
+    }
+
+    #sec3-top{
+        padding: 0 20px; 
+        width: 100%;
+    }
+
+    #sec3-footer-left{
+        display: none;
+    }
+
+    #sec3-footer-right{
+        padding: 0 50px;
+    }
+
+    #footer-right{
+        display: none;
+    }
+}
+
+@media (max-width: 640px){
+    #root{
+        max-width: 640px;
+        height: auto;
+    }
+
+    nav{
+        width: 100%;
+    }
+
+    #nav-nav{
+        width: 100%;
+        
+    }
+
+    #nav-line{
+        display: flex;
+    }
+
+    #nav-link{
+        display: none;
+    }
+
+    #nav-right{
+        margin-right: 0;
+    }
+
+    #nav-right{
+        width: 300px;
+        margin-left: 200px;
+    }
+
+    #order-now{
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    #header-right{
+         left: 50%;
+         transform: translate(-50%);
+    }
+
+    #sec1{
+        height: auto;
+    }
+
+    #sec1-card{
+        margin-left: 70px;
+    }
+
+    #sec1-right{
+       display: none;
+    }
+
+    #arrow-7{
+        margin: 25px 0;
+    }
+
+    #sec2-card{
+        margin-left: 0;
+        padding: 0 30px;
+    }
+
+    #sec2-text{
+        height: 150px;
+    }
+
+    #sec2-text :nth-child(1){
+       font-size: 50px;
+    }
+
+    #sec2-right-footer{
+        margin-top: 50px;
+    }
+
+    #sec2-img2{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #sec3{
+        width: 100%;
+        padding: 0;
+    }
+
+     #sec3-top-text{
+         padding: 0 30px;
+         width: 600px;
+         height: auto;
+     }
+
+    #sec3-top-text1{
+        padding: 0;
+        height: 175px;
+    }
+
+    #sec3-top-text1 :nth-child(1){
+        font-size: 35px;
+    }
+
+    #sec3-top-text1 :nth-child(2){
+        font-size: 14px;
+    }
+
+    #sec3-top-star{
+        margin-top: 80px;
+    }
+
+    #sec3-left{
+        margin-left: 70px;
+    }
+}
+
+@media (max-width: 480px) {
+    #root {
+        max-width: 480px;
+        width: 100%;
+        height: auto;
+    }
+
+    nav {
+        width: 100%;
+        justify-content: space-between;
+        padding: 0 30px;
+    }
+
+    #nav-right {
+        width: 90%;
+        margin-left: 0;
+    }
+
+    #nav-right :nth-child(3) {
+        display: none;
+    }
+
+    header {
+        height: 1000px;
+    }
+
+    #header-img1>img {
+        width: 412px;
+    }
+
+    #order-now {
+        margin-top: 80px;
+    }
+
+    #header-right {
+        margin-top: 150px;
+    }
+
+    #sec1 {
+        padding: 0;
+    }
+
+    #sec1-text {
+        width: 100%;
+        padding: 0;
+        padding: 0 10px;
+    }
+
+    #sec1-text :nth-child(1) {
+        font-size: 30px;
+    }
+
+    #sec1-card {
+        width: 100%;
+        margin: 0%;
+        padding: 0 20px;
+    }
+
+    #sec2 {
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    #sec2-img1 {
+        width: 100%;
+    }
+
+    #sec2-img1>img {
+        width: 100%;
+    }
+
+    #sec2-card {
+        width: 100%;
+        padding: 0;
+    }
+
+    #sec2-text {
+        width: 412px;
+        padding: 0 10px;
+        text-align: center;
+    }
+
+    #sec2-text :nth-child(1) {
+        font-size: 30px;
+    }
+
+    #sec2-text :nth-child(2) {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    #explor {
+        margin-left: 50px;
+    }
+
+    #sec3-top-text {
+        width: 100%;
+    }
+
+    #sec3-top-star {
+        width: 100%;
+        margin-top: 150px;
+    }
+
+    #sec3-left {
+        width: 100%;
+    }
+
+    #man>img {
+        width: 412px;
+        /* margin-left: -50px; */
+    }
+
+    #people {
+        display: none;
+    }
+
+    footer {
+        height: 600px;
+    }
+
+    #sec3-footer-text :nth-child(2) {
+        font-size: 25px;
+    }
+
+    #footer-link-boss {
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-left: 0;
+        justify-content: space-evenly;
+    }
+
+    #footer-link2 {
+        margin-top: 50px;
+        margin-left: 40%;
+    }
+}
+
+@media (max-width: 412px){
+    #root{
+        max-width: 412px;
+        width: 100%;
+        height: auto;
+    }
+
+    nav{
+        width: 100%;
+        justify-content: space-between;
+        padding: 0 30px;
+    }
+
+    #nav-right {
+        width: 90%;
+        margin-left: 0;
+    }
+
+     #nav-right :nth-child(3){
+         display: none;
+     }
+
+     header{
+         height: 1000px;
+     }
+
+     #header-img1 > img{
+         width: 412px;
+     }
+
+     #order-now{
+         margin-top: 80px;
+     }
+
+     #header-right{
+         margin-top: 150px;
+     }
+
+     #sec1{
+         padding: 0;
+     }
+
+     #sec1-text{
+         width: 100%;
+         padding: 0;
+         padding: 0 10px;
+     }
+
+     #sec1-text :nth-child(1){
+         font-size: 30px;
+     }
+
+     #sec1-card{
+         width: 100%;
+         margin: 0%;
+         padding: 0 20px;
+     }
+
+     #sec2{
+         display: flex;
+         justify-content: center;
+         overflow: hidden;
+     }
+
+     #sec2-img1{
+         width: 100%;
+     }
+
+     #sec2-img1 > img{
+         width: 100%;
+     }
+
+     #sec2-card{
+         width: 100%;
+         padding: 0;
+     }
+
+     #sec2-text{
+         width: 412px;
+         padding: 0 10px;
+         text-align: center;
+     }
+
+     #sec2-text :nth-child(1){
+         font-size: 30px;
+     }
+
+     #sec2-text :nth-child(2){
+         font-size: 14px;
+         width: 100%;
+     }
+
+     #explor{
+         margin-left: 50px;
+     }
+
+     #sec3-top-text{
+         width: 100%;
+     }
+
+     #sec3-top-star{
+        width: 100%;
+        margin-top: 150px;
+     }
+
+     #sec3-left{
+         width: 100%;
+         margin: 0;
+         display: flex;
+         justify-content: center;
+     }
+
+     #man{
+         width: 100%;
+         margin-top: 150px;
+     }
+
+     #man > img{
+         width: 100%;
+     }
+
+     #people{
+         display: none;
+     }
+
+     footer{
+         height: 600px;
+     }
+
+     #sec3-footer-text :nth-child(2){
+         font-size: 25px;
+     }
+
+    #footer-link-boss{
+      display: grid;
+      grid-template-columns: auto auto;
+      margin-left: 0;
+      justify-content: space-evenly;
+    }
+
+    #footer-link2{
+        margin-top: 50px;
+        margin-left: 40%;
+    }
+}
+
+@media (max-width: 394px){
+    #root{
+        max-width: 393px;
+        width: 100%;
+    }
+
+    #header-img1{
+       width: 100%;
+    }
+
+    #header-img1 > img{
+        width: 100%;
+    }
+
+    #sec2{
+        overflow: visible;
+    }
+
+    #sec2-text{
+        width: 393px;
+    }
+
+    #sec2-img2{
+        width: 100%;
+    }
+
+    #sec2-img2 > img{
+        width: 100%;
+    }
+}
