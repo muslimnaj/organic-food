@@ -671,6 +671,14 @@
     #sec2-img2 > img{
         width: 100%;
     }
+
+    #sec3-top-text1 :nth-child(2){
+        font-size: 14px;
+    }
+
+    #sec3-top-star{
+        margin-top: 150px;
+    }
 }
 
 @media (max-width: 361px){
