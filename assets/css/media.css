@@ -672,3 +672,23 @@
         width: 100%;
     }
 }
+
+@media (max-width: 361px){
+    #root{
+      max-width: 361px;
+      width: 100%;
+      height: auto;
+    }
+
+    #order-now{
+        margin-top: 100px;
+    }
+
+    #sec2-text{
+        width: 100%;
+    }
+
+    #sec3-top-star{
+        margin-top: 150px;
+    }
+}
